@@ -14,8 +14,8 @@ import { KeyVault, keyVaultSchema } from '@/lib/validation';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import LoadingButton from './loadingButton';
 import { useToast } from './ui/use-toast';
+import LoadingButton from './LoadingButton';
 
 export default function NewKeyVaultForm() {
   const { toast } = useToast();
